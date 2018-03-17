@@ -27,6 +27,10 @@ class Sparrow extends Bird {
 class Penguin extends Bird {
 }
 
+/**
+ * Factory design pattern class: BirdsFactory
+ *
+ */
 class BirdsFactory {
 	public static function getBird($bird = '') {
 		switch($bird){
@@ -45,4 +49,4 @@ class BirdsFactory {
 	}
 }
 
-$bird = BirdsFactory::getBird('sparrow');
+$bird = BirdsFactory::getBird('sparrow'); // Instantiates the Sparrow class
