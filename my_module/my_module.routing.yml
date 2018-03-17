@@ -1,0 +1,15 @@
+my_module.routing:
+  path: '/admin/structure/my_module'
+  defaults:
+    _title: 'My Module'
+    _controller: '\Drupal\my_module\Controller\MyModuleController::test'
+  requirements:
+    _permission: 'access administration pages'
+
+my_module.form:
+  path: '/admin/config/my_module'
+  defaults:
+    _title: 'My Module Form'
+    _form: '\Drupal\my_module\Form\MyModuleForm'
+  requirements:
+    _permission: 'access administration pages'

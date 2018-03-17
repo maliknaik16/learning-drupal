@@ -1,0 +1,5 @@
+my_module.link:
+  title: 'My Module Menu'
+  description: 'This is a description for link module'
+  parent: system.admin_structure
+  route_name: my_module.routing
