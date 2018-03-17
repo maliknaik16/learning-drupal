@@ -49,4 +49,4 @@ class BirdsFactory {
 	}
 }
 
-$bird = BirdsFactory::getBird('sparrow'); // Instantiates the Sparrow class
+$sparrow = BirdsFactory::getBird('sparrow'); // Instantiates the Sparrow class
